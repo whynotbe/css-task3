@@ -1,0 +1,18 @@
+.div0{
+    float:left;
+    border:1px red solid;
+    width:100vw;
+}
+.div2{
+    float:left;
+    margin-left:100px;
+    background-color:#333333;
+    font-size:40px;
+    color:#ffffff;
+}
+.div1{
+    float:left;
+    background-color:blue;
+    font-size:40px;
+    color:#ffffff;
+}

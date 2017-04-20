@@ -1,27 +1,39 @@
+/*@media screen and(max-width:960px) and(min-width:480px)
+{
+
+}
+*/
+
 .body{
     font-size:1em;
+    margin:0;
+    max-width:720px;
+    min-width:310px;
 
 }
 
 .box{
     background-color:rgb(104,205,213);
     width:100%;
+    max-width:1600px;
     height:100vh;
 }
 .left{
     width:15.5%;
     float:left;
+    height:100vh;
 }
 .back{
     background-image:url(sources/back.png);
     width:3.375em;
     height:3.375em;
-    margin-left:2em;
-    margin-top:1em;
+    margin-left:5.5vh;
+    margin-top:3vh;
 }
 .middle{
-    width:59%;
+    width:69%;
     float:left;
+    height:100vh;
 }
 
 .logo{
@@ -43,15 +55,34 @@
 .icon1{
     background-image:url(sources/icon1.png);
     float:left;
-    margin-top:15vh;
+    margin-top:11em;
     width:5.25em;
     height:5.25em;
+    margin-left:1.2em;
 }
 .icon2{
     background-image:url(sources/icon2.png);
-    margin-top:15vh;
+    margin-top:11em;
     width:5.25em;
     height:5.25em;
+    float:right;
+    margin-right:1.2em;
+}
+.tags{
+    margin-top:1em;
+    float:left;
+    width:100%;
+}
+.tag1{
+    font-size:1.5em;
+    line-height:1.5em;
+    color:#ffffff;
+    float:left;
+}
+.tag2{
+    font-size:1.5em;
+    line-height:1.5em;
+    color:#ffffff;
     float:right;
 }
 
@@ -60,4 +91,5 @@
 .right{
     width:15.5%;
     float:left;
+    height:100vh;
 }
